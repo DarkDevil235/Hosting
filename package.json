@@ -1,14 +1,17 @@
 {
-  "name": "Phone remote",
+  "name": "phone-remote",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "Dark Developer",
   "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
     "@types/node": "^22.13.11",
     "axios": "^1.13.5",
